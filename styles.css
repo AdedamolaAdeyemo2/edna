@@ -27,8 +27,8 @@
 html {
     font-size: 22px;
     color: #1e1e1e;
-    font-family: sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'Trebuchet MS';
-
+    /*font-family: sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'Trebuchet MS';
+*/
     height: 100%;
 }
 
@@ -268,12 +268,21 @@ figcaption > a {
     height: var(--main-bottom-margin);
 }
 
+
+
 /* ------------------ MEDIA QUERIES ------------------ */
 /* Phone Screens (screen width <= 425px) */
 @media screen and (max-width: 425px) {
     main {
         width: 90%;
         padding: 20px;
+    }
+    .livehead{
+        font-size: 20px;
+        
+    }
+    .heading{
+        font-size: 40px;
     }
     .info{
         display: block;
